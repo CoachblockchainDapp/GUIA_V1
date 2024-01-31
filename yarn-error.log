@@ -1,0 +1,91 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\SANDRA\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/drawer
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Aldec\Active-HDL 9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SANDRA\AppData\Local\Programs\Python\Python310;C:\Users\SANDRA\AppData\Local\Programs\Python\Python310\Scripts;C:\ProgramData\chocolatey\bin;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\SANDRA\.cargo\bin;C:\Users\SANDRA\.local\share\solana\install\active_release\bin;C:\Users\SANDRA\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\SANDRA\AppData\Local\Programs\Python\Python310\;C:\Users\SANDRA\AppData\Local\Microsoft\WindowsApps;C:\Users\SANDRA\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Users\SANDRA\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win;C:\Users\SANDRA\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@firebase/analytics-compat/-/analytics-compat-0.2.6.tgz: Request failed "500 Internal Server Error"
+      at ResponseError.ExtendableBuiltin (C:\Users\SANDRA\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\SANDRA\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\SANDRA\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66215:16)
+      at Request.emit (node:events:513:28)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\SANDRA\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141767:10)
+      at ClientRequest.emit (node:events:513:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:693:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (node:_http_client:534:22)
+
+npm manifest: 
+  {
+    "name": "travel_app",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@ant-design/react-native": "^5.0.4",
+      "@react-native-async-storage/async-storage": "1.18.2",
+      "@react-native-community/checkbox": "^0.5.16",
+      "@react-native-community/datetimepicker": "7.2.0",
+      "@react-navigation/bottom-tabs": "^6.5.8",
+      "@react-navigation/drawer": "^6.6.6",
+      "@react-navigation/material-bottom-tabs": "^6.2.16",
+      "@react-navigation/material-top-tabs": "^6.6.3",
+      "@react-navigation/native": "^6.1.7",
+      "@react-navigation/native-stack": "^6.9.13",
+      "@react-navigation/stack": "^6.3.17",
+      "axios": "^1.4.0",
+      "expo": "~49.0.6",
+      "expo-blur": "~12.4.1",
+      "expo-font": "~11.4.0",
+      "expo-linear-gradient": "~12.3.0",
+      "expo-location": "~16.1.0",
+      "expo-mail-composer": "~12.3.0",
+      "expo-splash-screen": "~0.20.5",
+      "expo-status-bar": "~1.6.0",
+      "firebase": "^10.6.0",
+      "formik": "^2.4.3",
+      "react": "18.2.0",
+      "react-native": "0.72.6",
+      "react-native-bouncy-checkbox": "^3.0.7",
+      "react-native-google-places-autocomplete": "^2.5.6",
+      "react-native-maps": "1.7.1",
+      "react-native-maps-directions": "^1.9.0",
+      "react-native-onboarding-swiper": "^1.2.0",
+      "react-native-pager-view": "6.2.0",
+      "react-native-paper": "^5.9.1",
+      "react-native-safe-area-context": "4.6.3",
+      "react-native-screens": "~3.22.0",
+      "react-native-shimmer-placeholder": "^2.0.9",
+      "react-native-stock-star-rating": "^1.0.6",
+      "react-native-svg": "13.9.0",
+      "react-native-tab-view": "^3.5.2",
+      "react-native-vector-icons": "^10.0.0",
+      "yup": "^1.2.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
